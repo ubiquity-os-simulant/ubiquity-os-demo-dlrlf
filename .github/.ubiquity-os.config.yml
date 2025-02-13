@@ -29,3 +29,5 @@ plugins:
       - plugin: "ubiquity-os-marketplace/daemon-merging@main"
   - uses:
       - plugin: "https://ubiquity-os-comment-vector-embeddings-main.ubiquity.workers.dev"
+  - uses:
+      - plugin: "https://ubiquity-os-plugin-demo-development.fernand-veyrier.workers.dev"      

@@ -9,6 +9,7 @@ plugins:
       - plugin: "https://ubiquity-os-command-query-user-development.fernand-veyrier.workers.dev"
   - uses:
       - plugin: "https://ubiquity-os-daemon-pricing-development.fernand-veyrier.workers.dev"
+        slipBotEvents: false
   - uses:
       - plugin: "Meniole/text-conversation-rewards@main"
         skipBotEvents: false

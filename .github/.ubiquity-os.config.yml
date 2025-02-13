@@ -1,16 +1,16 @@
 plugins:
   - uses:
-      - plugin: "https://ubiquity-os-command-start-stop-main.ubiquity.workers.dev"
+      - plugin: "https://ubiquity-os-command-start-stop-main.fernand-veyrier.workers.dev"
   - uses:
-      - plugin: "https://ubiquity-os-command-wallet-main.ubiquity.workers.dev"
+      - plugin: "https://ubiquity-os-command-wallet-main.fernand-veyrier.workers.dev"
   - uses:
-      - plugin: "ubiquity-os-marketplace/command-ask@main"
+      - plugin: "Meniole/command-ask@main"
   - uses:
-      - plugin: "https://ubiquity-os-command-query-user-main.ubiquity.workers.dev"
+      - plugin: "https://ubiquity-os-command-query-user-main.fernand-veyrier.workers.dev"
   - uses:
-      - plugin: "https://ubiquity-os-daemon-pricing-main.ubiquity.workers.dev"
+      - plugin: "https://ubiquity-os-daemon-pricing-main.fernand-veyrier.workers.dev"
   - uses:
-      - plugin: "ubiquity-os-marketplace/text-conversation-rewards@main"
+      - plugin: "Meniole/text-conversation-rewards@main"
         skipBotEvents: false
         with:
           incentives:
@@ -24,10 +24,10 @@ plugins:
           evmPrivateEncrypted: "zeSk_QbjFzvbfymdLF5iEl5G5dXNI83yMKww_v3sUVNWeinzWxd8x-58U_ncM5WGNrdHuBujqdi_zagkzs7vYfNBs8yZdvgiBX6spSrmA9haIgr2p5ivK-Abovo9faqw5NkRbKzQcLNUduBFaV652BODm0IQmRyzMoo6WLtZq3Y3xg"
           evmNetworkId: 100
   - uses:
-      - plugin: "ubiquity-os-marketplace/daemon-disqualifier@main"
+      - plugin: "Meniole/daemon-disqualifier@main"
   - uses:
-      - plugin: "ubiquity-os-marketplace/daemon-merging@main"
+      - plugin: "Meniole/daemon-merging@main"
   - uses:
-      - plugin: "https://ubiquity-os-comment-vector-embeddings-main.ubiquity.workers.dev"
+      - plugin: "https://ubiquity-os-comment-vector-embeddings-main.fernand-veyrier.workers.dev"
   - uses:
       - plugin: "https://ubiquity-os-plugin-demo-development.fernand-veyrier.workers.dev"      

@@ -1,14 +1,14 @@
 plugins:
   - uses:
-      - plugin: "https://ubiquity-os-command-start-stop-main.fernand-veyrier.workers.dev"
+      - plugin: "https://ubiquity-os-command-start-stop-development.fernand-veyrier.workers.dev"
   - uses:
-      - plugin: "https://ubiquity-os-command-wallet-main.fernand-veyrier.workers.dev"
+      - plugin: "https://ubiquity-os-command-wallet-development.fernand-veyrier.workers.dev"
   - uses:
       - plugin: "Meniole/command-ask@main"
   - uses:
-      - plugin: "https://ubiquity-os-command-query-user-main.fernand-veyrier.workers.dev"
+      - plugin: "https://ubiquity-os-command-query-user-development.fernand-veyrier.workers.dev"
   - uses:
-      - plugin: "https://ubiquity-os-daemon-pricing-main.fernand-veyrier.workers.dev"
+      - plugin: "https://ubiquity-os-daemon-pricing-development.fernand-veyrier.workers.dev"
   - uses:
       - plugin: "Meniole/text-conversation-rewards@main"
         skipBotEvents: false
@@ -28,6 +28,6 @@ plugins:
   - uses:
       - plugin: "Meniole/daemon-merging@main"
   - uses:
-      - plugin: "https://ubiquity-os-comment-vector-embeddings-main.fernand-veyrier.workers.dev"
+      - plugin: "https://ubiquity-os-comment-vector-embeddings-development.fernand-veyrier.workers.dev"
   - uses:
       - plugin: "https://ubiquity-os-plugin-demo-development.fernand-veyrier.workers.dev"      
